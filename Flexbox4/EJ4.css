@@ -1,0 +1,34 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 40px;
+}
+
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    background-color: lavender;
+}
+
+section {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    height: 42vh;
+}
+
+section#B {
+    align-items: flex-end;
+}
+
+section#C {
+    flex-direction: column;
+    align-items: center;
+    height: 100px;
+}

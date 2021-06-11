@@ -1,0 +1,57 @@
+* {
+    box-sizing: border-box;
+    text-align: center;
+    font-size: 40px;
+}
+
+.cuadrado {
+    width: 100px;
+    height: 100px;
+    background-color: silver;
+}
+
+body {
+    display: flex;
+    margin: 0;
+    padding: 0;
+    background-color: lavender;
+}
+
+section {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+section#A {
+    align-items: flex-start;
+    width: 50%;
+}
+
+section#B {
+    align-items: flex-end;
+    width: 50%;
+}
+
+section#C {
+    flex-direction: row;
+    align-content: center;
+    align-items: flex-end;
+    height: 50vh;
+    align-self: flex-end;
+    margin-left: -50%;
+}
+
+section#D {
+    align-content: center;
+    flex-direction: row;
+    align-items: flex-start;
+    height: 50vh;
+}
+
+div#Z {
+    display: flex;
+    flex-direction: column;
+}
